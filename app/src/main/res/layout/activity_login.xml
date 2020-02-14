@@ -1,62 +1,50 @@
-<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
     android:orientation="vertical"
-    tools:context=".LoginActivity">
-
+    android:background="@drawable/profie_backgrnd"
+    tools:context=".SignupActivity">
     <TextView
-        android:layout_marginTop="50dp"
-        android:layout_gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Login"
-        android:textSize="35sp"
-        android:textColor="@android:color/black"/>
-
+        android:textSize="40sp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="45dp"
+        android:layout_gravity="center"/>
     <LinearLayout
-        android:layout_marginTop="50dp"
+
+        android:layout_marginTop="40dp"
         android:layout_gravity="center"
-        android:layout_width="320dp"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:orientation="vertical">
-
         <EditText
-            android:layout_margin="20dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Username "
-        />
-
-        <EditText
-            android:layout_margin="20dp"
+            android:layout_margin="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Password "
+            android:hint="Username"/>
+
+        <EditText
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Password"
             android:inputType="textPassword" />
-
-        <Button
-            android:layout_marginTop="45dp"
-            android:id="@+id/signIn"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Sign in"
-            android:textSize="15sp"
-            android:layout_gravity="bottom|center"
-            android:textColor="@android:color/white"
-            android:background="@drawable/loginbtn"
-            />
     </LinearLayout>
 
-    <TextView
-        android:layout_marginTop="235dp"
-        android:layout_width="wrap_content"
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/signIn"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:textColor="@android:color/black"
-        android:text="Made with❤in India "/>
-
+        android:text="Sign in"
+        android:textSize="15sp"
+        android:layout_gravity="bottom|center"
+        android:textColor="@android:color/white"
+        android:background="@drawable/loginbtn"
+        />
 </LinearLayout>
