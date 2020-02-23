@@ -1,3 +1,19 @@
 <resources>
-    <string name="app_name">Suvidha</string>
+    <string name="app_name">Park Space</string>
+
+
+
+    <string-array name="Location">
+        <item>Bangalore</item>
+        <item>Chennai</item>
+        <item>Dehradun</item>
+        <item>Delhi</item>
+        <item>Kolkata</item>
+        <item>Mumbai</item>
+        <item>Pune</item>
+    </string-array>
+
 </resources>
+
+
+
