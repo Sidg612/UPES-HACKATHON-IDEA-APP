@@ -2,7 +2,6 @@
     <string name="app_name">Park Space</string>
 
 
-
     <string-array name="Location">
         <item>Bangalore</item>
         <item>Chennai</item>
