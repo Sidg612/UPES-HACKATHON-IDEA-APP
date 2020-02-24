@@ -29,10 +29,8 @@ class MainActivity : AppCompatActivity() {
             intent.putExtra("distance",handlers.distance)
             intent.putExtra("address",handlers.address)
             startActivity(intent)
-
         }
     }
-
         override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -43,7 +41,10 @@ class MainActivity : AppCompatActivity() {
         handlerlist.add(Handler("ParkingLot4",8,"21, Delhi",R.drawable.parkingimage4))
         handlerlist.add(Handler("ParkingLot5",1,"54, Delhi",R.drawable.parkingimage5))
 
+        searchBTN.setOnClickListener {
+            LL.alpha=0F
 
+        }
         ArrayAdapter.createFromResource(this,
             R.array.Location,
             android.R.layout.simple_spinner_item

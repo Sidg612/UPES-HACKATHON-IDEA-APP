@@ -15,6 +15,12 @@ class HandlerDetails : AppCompatActivity() {
         val pic = bundle!!.getInt("imageH")
         imageTV.setImageResource(pic)
 
+       Name.text= intent.getStringExtra("name")
+        Address.text= intent.getStringExtra("address")
+        Distance.text=intent.getIntExtra("distance",-1).toString()
+
+
+
 
 
 

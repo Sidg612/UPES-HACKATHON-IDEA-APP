@@ -58,24 +58,27 @@
                 android:textSize="30sp"
                 android:layout_margin="25dp"
                 android:id="@+id/Name"
+                android:textColor="@android:color/black"
                 />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:hint="DISTANCE"
                 android:layout_gravity="right"
-                android:textSize="15sp"
+                android:textSize="20sp"
                 android:layout_margin="25dp"
                 android:id="@+id/Distance"
+                android:textColor="@android:color/black"
                 />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:hint="ADDRESS"
                 android:id="@+id/Address"
-                android:textSize="15sp"
+                android:textSize="20sp"
                 android:layout_margin="25dp"
                 android:layout_gravity="center_vertical"
+                android:textColor="@android:color/black"
                 />
 
 
